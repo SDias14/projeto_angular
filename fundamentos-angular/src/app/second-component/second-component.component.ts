@@ -10,6 +10,11 @@ export class SecondComponentComponent  {
   name = 'John Doe';
   birthDate = "01/01/2000";
   urlImage = "/assets/img/obama.jpg";
+  
+
+  showBirthDate(){
+    alert('My birth date is ' + this.birthDate);
+  }
 
   
 }

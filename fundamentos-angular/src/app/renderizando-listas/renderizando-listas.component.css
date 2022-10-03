@@ -1,0 +1,11 @@
+
+
+.lista-produtos .esgotado{
+    background-color: red;
+    color: white;
+   border: 5px solid red;
+}
+
+.lista-produtos .disponivel{
+    background-color: green;
+}
