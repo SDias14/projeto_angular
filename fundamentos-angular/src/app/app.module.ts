@@ -17,6 +17,9 @@ import { Servico01Component } from './servico01/servico01.component';
 import { Servico02Component } from './servico02/servico02.component';
 import { LoggerComponent } from './logger/logger.component';
 import { Servico03Component } from './servico03/servico03.component';
+import { CicloDeVidaComponent } from './ciclo-de-vida/ciclo-de-vida.component';
+import { CicloDeVidaPaiComponent } from './ciclo-de-vida-pai/ciclo-de-vida-pai.component';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,10 @@ import { Servico03Component } from './servico03/servico03.component';
     Servico01Component,
     Servico02Component,
     LoggerComponent,
-    Servico03Component
+    Servico03Component,
+    CicloDeVidaComponent,
+    CicloDeVidaPaiComponent,
+    ContentComponent
 ],
   imports: [
     BrowserModule,
